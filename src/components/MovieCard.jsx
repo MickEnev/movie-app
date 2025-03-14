@@ -11,7 +11,7 @@ export default function ({movie}) {
     <div className="movieCard">
         <div className="movie-poster">
             <img src={movie.url} alt={movie.title}/>
-            <div className="mvoie-overlay">
+            <div className="movie-overlay">
                 <button className="favorite-btn" onClick={onLike}> :3 </button>
             </div>
         </div>
